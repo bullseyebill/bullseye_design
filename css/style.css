@@ -22,8 +22,8 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 html, body{
-    background: url("img/beach_1.jpg");
-    font-family: 'Open Sans', sans-serif;
+    background: url("/img/beach_1.jpg");
+    font-family: 'Permanent Marker', sans-serif;
     margin: 0;
 }
 .wrap{
@@ -58,7 +58,7 @@ html, body{
 	  display: inline-block;
 	  width: 130px;
 	  height: 120px;
-	  background: #323542;
+	  background: #4169E1;
 	  border: 10px solid#ff415b;
  	border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -93,83 +93,27 @@ html, body{
 /* ---------- /TIMER ---------- */
 .banner {
     text-align: center;
-    background: #323542;
+    background: url("/img/beach_1.jpg");
     height: 390px;
     margin-top: 7em;
 }
 .banner-text h1 {
-	color: #ff415b;
-  font-size: 3em;
+	color: #E0FFFF;
+  font-size: 4em;
   font-weight: bold;
     padding-top: 2em;
 }
 .banner-text h2 {
-  border-bottom: 2px solid#E0E0E0;
+  border-bottom: 2px solid#E0FFFF;
   width: 50%;
   margin: 1% auto 4%;
   padding-bottom: 1em;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.1em;
-  color: #D2D1D1;
-}
-form input[type="text"] {
-    color: #A3A6AE;
-    outline: 0;
-    padding: 11px;
-    border: 1px solid#E4E4E4;
-    width: 74%;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-}
-input[type="submit"] {
-	outline: 0;
-	color: #fff;
-	font-size: 14px;
-	background: #ff415b;
-	border-radius:3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	border: none;
-	  padding: 11px 18px;
-	  text-transform: uppercase;
-	    cursor: pointer;
-	        transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-input[type="submit"]:hover {
-	background: #B93345;
-	color: #fff;
-	text-decoration:none;
-		transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-.banner-text-info p {
-	  text-align: center;
-	  font-size: 1.1em;
-	  text-transform: uppercase;
-	  color: #fff;
-	    margin-bottom: 2em;
-}
-.form-info {
-    width: 33.5%;
-    margin: 1% auto;
-    background: #fff;
-    padding: 3px 3px;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
+  font-size: 2.3em;
+  color: #E0FFFF;
+
+
 }
 .banner-text-info {
   margin-top: 6em;
@@ -275,10 +219,10 @@ input[type="submit"]:hover {
 	  width: 90%;
 	}
 	.copy-rights {
-	  padding: 7em 0 0;
+	  padding: 10em 0 0;
 	}
 	.banner {
-	  margin-top: 12em;
+	  margin-top: 20em;
 	}
 }
 @media (max-width:640px){
