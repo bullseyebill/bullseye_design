@@ -22,8 +22,8 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 html, body{
-    background: url("/img/beach_1.jpg");
-    font-family: 'Permanent Marker', sans-serif;
+    background: url("../img/summer_blue.jpg");
+    font-family: 'Sigmar One', cursive;
     margin: 0;
 }
 .wrap{
