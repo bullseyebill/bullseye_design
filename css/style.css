@@ -80,6 +80,10 @@ html, body{
 		color:#FFF;
 	    display: none;
 }
+.target_logo {
+	text-align: center;
+	background: url("../img/bd_1.png");
+}
 .boxName {
     float: left;
     width: 100%;
@@ -101,7 +105,7 @@ html, body{
 	color: #E0FFFF;
   font-size: 4em;
   font-weight: bold;
-    padding-top: 2em;
+    padding-top: .5em;
 }
 .banner-text h2 {
   border-bottom: 2px solid#E0FFFF;
